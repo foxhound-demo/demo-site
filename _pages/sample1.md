@@ -8,21 +8,24 @@ sidebar:
 #categories: jekyll update javascript
 ---
 
-Hello
-
+This is a notice
+{: .notice #target}
 
 <script>
     var hash = location.hash;
     var decoded = decodeURIComponent(hash.substring(1));
     var message = "Hello " + decoded + " there!";
-    document.write(message);
+    let d = document.getElementById("target");
+    d.innerHTML = message;
 </script>
 
+Script executed in this page:
 
 ```javascript
 var hash = location.hash;
 var decoded = decodeURIComponent(hash.substring(1));
 var message = "Hello " + decoded + " there!";
-document.write(message);
+let d = document.getElementById("target");
+d.innerHTML = message;
 ```
 
