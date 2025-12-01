@@ -9,4 +9,5 @@ sidebar:
   nav: samples
 ---
 
-This is the home page with some information about all the cool stuff on it
+This website provides examples web pages which are vulnerable to client-side cross-site scripting attacks,
+which can be discovered using [Project Foxhound](https://github.com/SAP/project-foxhound).
