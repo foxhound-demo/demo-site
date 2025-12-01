@@ -8,4 +8,4 @@ samples:
   - title: Sample 2
     url: sample2?p1=foo&p2=bar
   - title: Sample 3
-    url: sample1#hello
+    url: sample3#hello
